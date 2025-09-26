@@ -1,0 +1,17 @@
+START
+	SET random = (1,100)
+	PRINT "Tawtai morilno uu? Ta 1-100 iin hoorond too taah togloomond newterlee."
+	PRINT "Ta 1-100 iin hoorond duriin toogoo oruulna uu"
+	GET user_number
+	WHILE random != user_number DO
+		IF random <= user_number; THEN
+			PRINT "Tanii too baga baina"
+		ELSEIF random >= user_number; THEN
+			PRINT "Tanii oruulsan too ih baina"
+		ENDIF
+	ENDWHILE
+		IF random == user_number; THEN
+			PRINT "Zuw taalaa, Tanid bayar hurgey"
+		ENDIF
+END 
+	
