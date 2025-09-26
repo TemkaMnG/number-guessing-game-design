@@ -12,8 +12,8 @@ START
 			GET user_number
 		ENDIF
 	ENDWHILE
-		IF random == user_number; THEN
-			PRINT "Zuw taalaa, Tanid bayar hurgey"
-		ENDIF
+	IF random == user_number; THEN
+		PRINT "Zuw taalaa, Tanid bayar hurgey"
+	ENDIF
 END 
 	
