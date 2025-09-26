@@ -6,8 +6,10 @@ START
 	WHILE random != user_number DO
 		IF random <= user_number; THEN
 			PRINT "Tanii too baga baina"
-		ELSEIF random >= user_number; THEN
+			GET user_number
+		ELSEIF random => user_number; THEN
 			PRINT "Tanii oruulsan too ih baina"
+			GET user_number
 		ENDIF
 	ENDWHILE
 		IF random == user_number; THEN
